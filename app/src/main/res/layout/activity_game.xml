@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/userPseudoDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+<GridLayout
+    android:id="@+id/gridTicTacToe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="3">
+
+
+
+
+
+        <!-- Case 01 -->
+        <ImageButton
+            android:id="@+id/case01"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:background="@color/dkgray"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:onClick="cellTapped"
+            android:tag="0"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <!-- Case 02 -->
+        <ImageButton
+            android:id="@+id/case02"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:background="@color/gray"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:onClick="cellTapped"
+            android:tag="1"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <!-- Case 03 -->
+        <ImageButton
+            android:id="@+id/case03"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:background="@color/dkgray"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:onClick="cellTapped"
+            android:tag="2"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <!-- Case 04 -->
+        <ImageButton
+            android:id="@+id/case04"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:background="@color/gray"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:onClick="cellTapped"
+            android:tag="3"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <!-- Case 05 -->
+        <ImageButton
+            android:id="@+id/case05"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:background="@color/dkgray"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:onClick="cellTapped"
+            android:tag="4"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <!-- Case 06 -->
+        <ImageButton
+            android:id="@+id/case06"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:background="@color/gray"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:onClick="cellTapped"
+            android:tag="5"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <!-- Case 07 -->
+
+        <!-- Case 08 -->
+
+        <ImageButton
+            android:id="@+id/case07"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:background="@color/dkgray"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:onClick="cellTapped"
+            android:tag="6"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/case08"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:background="@color/gray"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:onClick="cellTapped"
+            android:tag="7"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <!-- Case 09 -->
+        <ImageButton
+            android:id="@+id/case09"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:background="@color/dkgray"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:onClick="cellTapped"
+            android:tag="8"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+</GridLayout>
+
+    <Button
+        android:id="@+id/btnRecommencer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommencer"
+        android:onClick="resetGame"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
